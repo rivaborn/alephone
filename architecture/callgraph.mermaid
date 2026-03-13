@@ -1,0 +1,568 @@
+﻿%%{ init: { 'theme': 'dark', 'flowchart': { 'curve': 'basis' } } }%%
+graph LR
+
+  subgraph Extras
+  end
+
+  subgraph Source_Files
+    _alephone_assert["_alephone_assert"]
+    _alephone_warn["_alephone_warn"]
+    _draw_screen_shape_at_x_y["_draw_screen_shape_at_x_y"]
+    _get_default_data_path__Windows_["_get_default_data_path (Windows)"]
+    _get_legacy_login_name__Windows_["_get_legacy_login_name (Windows)"]
+    _get_local_data_path__Windows_["_get_local_data_path (Windows)"]
+    _get_prefs_path__Windows_["_get_prefs_path (Windows)"]
+    _render_overhead_map["_render_overhead_map"]
+    _MessageInflater["~MessageInflater"]
+    _Update__destructor_["~Update (destructor)"]
+    add_to_cache_cache_key_t__SDL_Surface_["add_to_cache(cache_key_t, SDL_Surface)"]
+    add_workshop_items__overloaded_variant_2_["add_workshop_items (overloaded variant 2)"]
+    adjust_platform_endpoint_and_line_heights["adjust_platform_endpoint_and_line_heights"]
+    adjust_platform_for_media["adjust_platform_for_media"]
+    AIStream__read_char_ptr__uint32_count_["AIStream::read(char ptr, uint32 count)"]
+    allocate_flood_map_memory["allocate_flood_map_memory"]
+    allocate_pathfinding_memory["allocate_pathfinding_memory"]
+    allocate_player_memory["allocate_player_memory"]
+    animate_object["animate_object"]
+    animate_scenery["animate_scenery"]
+    AnimTxtr_Update["AnimTxtr_Update"]
+    api_checknelems["api_checknelems"]
+    api_incr_top["api_incr_top"]
+    apply_cache_limit__["apply_cache_limit()"]
+    apply_gamma["apply_gamma"]
+    ApplyFade["ApplyFade"]
+    AStream__failure___failure__["AStream::failure::~failure()"]
+    AStream__failure__failure_const_std__string__str_["AStream::failure::failure(const std::string& str)"]
+    BigChunkOfDataMessage__BigChunkOfDataMessage__constructor_["BigChunkOfDataMessage::BigChunkOfDataMessage (constructor)"]
+    BigChunkOfDataMessage__clone["BigChunkOfDataMessage::clone"]
+    BigChunkOfDataMessage__copyBufferFrom["BigChunkOfDataMessage::copyBufferFrom"]
+    BigChunkOfDataMessage__deflate["BigChunkOfDataMessage::deflate"]
+    BigChunkOfDataMessage__inflateFrom["BigChunkOfDataMessage::inflateFrom"]
+    Binder_T___migrate_first_to_second["Binder<T>::migrate_first_to_second"]
+    Binder_T___migrate_second_to_first["Binder<T>::migrate_second_to_first"]
+    BinderSet__migrate_all_first_to_second["BinderSet::migrate_all_first_to_second"]
+    BinderSet__migrate_all_second_to_first["BinderSet::migrate_all_second_to_first"]
+    bool_SndfileDecoder__Open_FileSpecifier__File_["bool SndfileDecoder::Open(FileSpecifier& File)"]
+    BytesToStream["BytesToStream"]
+    cache_image_WadImageDescriptor___int__int__SDL_Surface_["cache_image(WadImageDescriptor&, int, int, SDL_Surface)"]
+    CauseAmbientSoundSourceUpdate__["CauseAmbientSoundSourceUpdate()"]
+    ChatHistory__append["ChatHistory::append"]
+    ChatHistory__clear["ChatHistory::clear"]
+    check_m1_exploration["check_m1_exploration"]
+    CircularQueue____default_constructor_["CircularQueue() (default constructor)"]
+    Cleanup_helpers["Cleanup helpers"]
+    clear_screen___clear_screen_margin["clear_screen / clear_screen_margin"]
+    CloseLuaHUDScript["CloseLuaHUDScript"]
+    CompareToKeyword["CompareToKeyword"]
+    Console__enter["Console::enter"]
+    Console__enter__["Console::enter()"]
+    Constructor["Constructor"]
+    copy_on_edit_T___edit["copy_on_edit<T>::edit"]
+    countActionFlags___totalCapacity___availableCapacity["countActionFlags / totalCapacity / availableCapacity"]
+    crosshair_dialog["crosshair_dialog"]
+    Crosshairs_Render["Crosshairs_Render"]
+    damage_player["damage_player"]
+    decode_hotkeys["decode_hotkeys"]
+    DecompressDXTC1___DecompressDXTC3___DecompressDXTC5["DecompressDXTC1 / DecompressDXTC3 / DecompressDXTC5"]
+    DefaultStarPreferences___StarPreferencesTree["DefaultStarPreferences / StarPreferencesTree"]
+    detonate_projectile["detonate_projectile"]
+    dialog_rename__dialog_delete__dialog_export["dialog_rename, dialog_delete, dialog_export"]
+    disconnect["disconnect"]
+    dispatchIncomingMessages__["dispatchIncomingMessages()"]
+    dispatchOneIncomingMessage["dispatchOneIncomingMessage"]
+    Draw["Draw"]
+    draw_path["draw_path"]
+    draw_polygon["draw_polygon"]
+    draw_text["draw_text"]
+    DrawShape["DrawShape"]
+    DrawTexture["DrawTexture"]
+    DuplicatingTickBasedCircularQueue__enqueue_const_tValueType__inFlags_["DuplicatingTickBasedCircularQueue::enqueue(const tValueType& inFlags)"]
+    enqueueBytes["enqueueBytes"]
+    enqueueBytesNoCopyStart["enqueueBytesNoCopyStart"]
+    enqueueOutgoingMessage["enqueueOutgoingMessage"]
+    enqueueOutgoingMessage__["enqueueOutgoingMessage()"]
+    enter_screen___exit_screen["enter_screen / exit_screen"]
+    Event_Callbacks__L_Call__["Event Callbacks (L_Call_)"]
+    FBO___FBO__destructor_["FBO::~FBO (destructor)"]
+    FBO__activate["FBO::activate"]
+    FBO__active_fbo__static_["FBO::active_fbo (static)"]
+    FBO__deactivate["FBO::deactivate"]
+    FBO__draw["FBO::draw"]
+    FBO__draw_full["FBO::draw_full"]
+    FBO__FBO__constructor_["FBO::FBO (constructor)"]
+    FBO__prepare_drawing_mode["FBO::prepare_drawing_mode"]
+    FBO__reset_drawing_mode["FBO::reset_drawing_mode"]
+    FBOSwapper__activate___deactivate___swap["FBOSwapper::activate / deactivate / swap"]
+    FBOSwapper__blend_multisample["FBOSwapper::blend_multisample"]
+    FBOSwapper__copy___blend["FBOSwapper::copy / blend"]
+    FBOSwapper__filter["FBOSwapper::filter"]
+    FileSpecifier__AddPart___operator____operator__["FileSpecifier::AddPart / operator+ / operator+="]
+    FindProjectedBoundingBox__static_function_["FindProjectedBoundingBox (static function)"]
+    flood_map["flood_map"]
+    flushOutgoingMessages["flushOutgoingMessages"]
+    flushOutgoingMessages__["flushOutgoingMessages()"]
+    FontSpecifier__OGL_DrawText_const_char_text__const_screen_rectangle__r__short_flags_["FontSpecifier::OGL_DrawText(const char text, const screen_rectangle &r, short flags)"]
+    FontSpecifier__OGL_ResetFonts_bool_IsStarting___static_["FontSpecifier::OGL_ResetFonts(bool IsStarting) [static]"]
+    full_fade["full_fade"]
+    GameAvailableMetaserverAnnouncer__constructor_["GameAvailableMetaserverAnnouncer (constructor)"]
+    GatherDialog__GatherNetworkGameByRunning["GatherDialog::GatherNetworkGameByRunning"]
+    GenerateSources["GenerateSources"]
+    get_data_path__Linux_["get_data_path (Linux)"]
+    get_data_path__Windows_["get_data_path (Windows)"]
+    get_default_spec__string_overload_["get_default_spec (string overload)"]
+    get_dynamic_limit["get_dynamic_limit"]
+    get_ephemera_data["get_ephemera_data"]
+    get_game_error["get_game_error"]
+    get_image_WadImageDescriptor___int__int__SDL_Surface_["get_image(WadImageDescriptor&, int, int, SDL_Surface)"]
+    get_media_data["get_media_data"]
+    get_monster_dimensions["get_monster_dimensions"]
+    get_player_transfer_mode["get_player_transfer_mode"]
+    GetAngle["GetAngle"]
+    GetCurrentLogger["GetCurrentLogger"]
+    GetGameDataFromGatherer["GetGameDataFromGatherer"]
+    GetLevelMusic["GetLevelMusic"]
+    GetMipMapPtr["GetMipMapPtr"]
+    GetMipMapSize["GetMipMapSize"]
+    GetOnScreenFont["GetOnScreenFont"]
+    GetPlayBackAudio["GetPlayBackAudio"]
+    GetResponseTime["GetResponseTime"]
+    GetVertIndx["GetVertIndx"]
+    GetVertIndxSet["GetVertIndxSet"]
+    hub_cleanup["hub_cleanup"]
+    hub_initialize["hub_initialize"]
+    hub_received_network_packet["hub_received_network_packet"]
+    hub_tick["hub_tick"]
+    image_from_desc_WadImageDescriptor__["image_from_desc(WadImageDescriptor&)"]
+    image_from_name_const_std__string__["image_from_name(const std::string&)"]
+    image_to_new_name_SDL_Surface__int32_["image_to_new_name(SDL_Surface, int32)"]
+    import_m1_physics_data__static_["import_m1_physics_data (static)"]
+    import_m1_physics_data_from_network__static_["import_m1_physics_data_from_network (static)"]
+    inflate["inflate"]
+    Init["Init"]
+    initialize_cache__["initialize_cache()"]
+    initialize_control_panels_for_level["initialize_control_panels_for_level"]
+    initialize_fades["initialize_fades"]
+    initialize_game_state["initialize_game_state"]
+    initialize_map_for_new_level["initialize_map_for_new_level"]
+    initialize_net_game["initialize_net_game"]
+    initialize_terminal_manager["initialize_terminal_manager"]
+    InitMapFonts["InitMapFonts"]
+    input_controller["input_controller"]
+    instantiate_transfer_mode["instantiate_transfer_mode"]
+    is_cached["is_cached"]
+    kill_player["kill_player"]
+    L_Call_HUDInit__L_Call_HUDDraw__L_Call_HUDResize__L_Call_HUDCleanup["L_Call_HUDInit, L_Call_HUDDraw, L_Call_HUDResize, L_Call_HUDCleanup"]
+    L_Player_Control["L_Player_Control"]
+    learnPrototypeForType["learnPrototypeForType"]
+    LightingCallback["LightingCallback"]
+    ListToStream["ListToStream"]
+    LoadDDSFromFile["LoadDDSFromFile"]
+    LoadHUDLua["LoadHUDLua"]
+    LoadLevelScripts["LoadLevelScripts"]
+    LoadLuaHUDScript["LoadLuaHUDScript"]
+    LoadMipMapFromFile["LoadMipMapFromFile"]
+    LoadModel_Wavefront["LoadModel_Wavefront"]
+    LoadModel_Wavefront_RightHand["LoadModel_Wavefront_RightHand"]
+    Logger__logMessage["Logger::logMessage"]
+    loggingFileName["loggingFileName"]
+    lua_callk___lua_pcallk___lua_call___lua_pcall["lua_callk / lua_pcallk / lua_call / lua_pcall"]
+    Lua_Ephemera_Delete["Lua_Ephemera_Delete"]
+    Lua_Ephemera_Position["Lua_Ephemera_Position"]
+    Lua_Ephemera_register["Lua_Ephemera_register"]
+    Lua_Ephemera_Valid["Lua_Ephemera_Valid"]
+    Lua_Ephemeras_New["Lua_Ephemeras_New"]
+    Lua_Fonts_New["Lua_Fonts_New"]
+    lua_getstack___lua_getinfo___lua_getlocal___lua_setlocal___lua_getupvalue___lua_setupvalue["lua_getstack / lua_getinfo / lua_getlocal / lua_setlocal / lua_getupvalue / lua_setupvalue"]
+    Lua_HUDColor_Lookup["Lua_HUDColor_Lookup"]
+    Lua_Music_Play__Lua_Music_Stop["Lua_Music_Play, Lua_Music_Stop"]
+    lua_newstate["lua_newstate"]
+    Lua_Screen_Fill_Rect["Lua_Screen_Fill_Rect"]
+    lua_sethook___lua_gethook___lua_gethookmask___lua_gethookcount["lua_sethook / lua_gethook / lua_gethookmask / lua_gethookcount"]
+    luaD_call["luaD_call"]
+    luaM_growaux_["luaM_growaux_"]
+    luaM_realloc_["luaM_realloc_"]
+    luaS_eqstr["luaS_eqstr"]
+    luaS_new["luaS_new"]
+    luaZ_fill__private_["luaZ_fill (private)"]
+    luaZ_openspace["luaZ_openspace"]
+    M1SoundFile__GetSoundData["M1SoundFile::GetSoundData"]
+    make_player_netdead["make_player_netdead"]
+    MakeRGBA["MakeRGBA"]
+    mark_player_inventory_as_dirty___mark_player_inventory_screen_as_dirty["mark_player_inventory_as_dirty / mark_player_inventory_screen_as_dirty"]
+    mat4__constructor_["mat4 (constructor)"]
+    mat4__glSet["mat4::glSet"]
+    MessageHandlerMethod__handle["MessageHandlerMethod::handle"]
+    MetaserverClientUi__GameSelected["MetaserverClientUi::GameSelected"]
+    Minify["Minify"]
+    move_projectiles["move_projectiles"]
+    Movie__DequeueFrames_bool_last____Movie__DequeueFrame__["Movie::DequeueFrames(bool last) & Movie::DequeueFrame()"]
+    Movie__EncodeAudio_bool_last_["Movie::EncodeAudio(bool last)"]
+    Movie__EncodeThread_____Movie__EncodeVideo_bool_last_["Movie::EncodeThread() & Movie::EncodeVideo(bool last)"]
+    Movie__Setup__["Movie::Setup()"]
+    mytm_initialize__["mytm_initialize()"]
+    myTMCleanup__["myTMCleanup()"]
+    myTMDumpProfile____DEBUG_only_["myTMDumpProfile() (DEBUG only)"]
+    myXTMSetup__["myXTMSetup()"]
+    need_mode_change["need_mode_change"]
+    NetGather["NetGather"]
+    NetworkStatsMessage__reallyDeflateTo___reallyInflateFrom["NetworkStatsMessage::reallyDeflateTo / reallyInflateFrom"]
+    new_effect["new_effect"]
+    new_ephemera["new_ephemera"]
+    new_platform["new_platform"]
+    new_player["new_player"]
+    new_projectile["new_projectile"]
+    new_side["new_side"]
+    newMessageHandlerMethod["newMessageHandlerMethod"]
+    NonblockingConnect__address__["NonblockingConnect::address()"]
+    normalize_angle["normalize_angle"]
+    ObjectDataPool__get_unused["ObjectDataPool::get_unused"]
+    ObjectDataPool__release["ObjectDataPool::release"]
+    OGL_CheckExtension["OGL_CheckExtension"]
+    OGL_EndMain["OGL_EndMain"]
+    OGL_FrameTickTextures["OGL_FrameTickTextures"]
+    OGL_ModelData__Load["OGL_ModelData::Load"]
+    OGL_ModelData__Unload["OGL_ModelData::Unload"]
+    OGL_RenderCrosshairs["OGL_RenderCrosshairs"]
+    OGL_RenderRect___OGL_RenderTexturedRect___OGL_RenderFrame___OGL_RenderLines["OGL_RenderRect / OGL_RenderTexturedRect / OGL_RenderFrame / OGL_RenderLines"]
+    OGL_RenderText["OGL_RenderText"]
+    OGL_ResetFonts_bool_IsStarting___static_["OGL_ResetFonts(bool IsStarting) [static]"]
+    OGL_SetWindow["OGL_SetWindow"]
+    OGL_SkinManager__GetSkin__["OGL_SkinManager::GetSkin()"]
+    OGL_SkinManager__Use["OGL_SkinManager::Use"]
+    OGL_StartMain["OGL_StartMain"]
+    OGL_StartRun["OGL_StartRun"]
+    OGL_StartTextures["OGL_StartTextures"]
+    OGL_StopRun["OGL_StopRun"]
+    OGL_StopTextures["OGL_StopTextures"]
+    online_dialog["online_dialog"]
+    pack_lua_states___unpack_lua_states["pack_lua_states / unpack_lua_states"]
+    parse_levels_xml["parse_levels_xml"]
+    parse_mml_dynamic_limits["parse_mml_dynamic_limits"]
+    parse_mml_faders["parse_mml_faders"]
+    parse_mml_interface["parse_mml_interface"]
+    parse_mml_platforms["parse_mml_platforms"]
+    parse_mml_player___reset_mml_player["parse_mml_player / reset_mml_player"]
+    parse_mml_scenery["parse_mml_scenery"]
+    Pause___StopLevelMusic___StopInGameMusic["Pause / StopLevelMusic / StopInGameMusic"]
+    PickAvailableSource["PickAvailableSource"]
+    place_initial_objects["place_initial_objects"]
+    play_platform_sound["play_platform_sound"]
+    player_acknowledged_up_to_tick["player_acknowledged_up_to_tick"]
+    player_dialog["player_dialog"]
+    player_touch_platform_state["player_touch_platform_state"]
+    PlaySound___overloads["PlaySound() overloads"]
+    plm_audio_decode["plm_audio_decode"]
+    plm_create_with_filename___plm_create_with_file___plm_create_with_memory___plm_create_with_buffer["plm_create_with_filename / plm_create_with_file / plm_create_with_memory / plm_create_with_buffer"]
+    plm_decode["plm_decode"]
+    plm_decode_video___plm_decode_audio["plm_decode_video / plm_decode_audio"]
+    plm_seek___plm_seek_frame["plm_seek / plm_seek_frame"]
+    plm_video_decode["plm_video_decode"]
+    Plugins__get_resource["Plugins::get_resource"]
+    precalculate_map_indexes["precalculate_map_indexes"]
+    preflight_projectile["preflight_projectile"]
+    PreloadTextures["PreloadTextures"]
+    PreloadWallTexture["PreloadWallTexture"]
+    process_messages["process_messages"]
+    ProcessAudioQueue["ProcessAudioQueue"]
+    pumpAll["pumpAll"]
+    pumpSendingSide["pumpSendingSide"]
+    quadruple_surface__template_["quadruple_surface (template)"]
+    reallocate_dynamic_limits["reallocate_dynamic_limits"]
+    recalculate_and_display_color_table["recalculate_and_display_color_table"]
+    receive_some["receive_some"]
+    receiveHeader["receiveHeader"]
+    receiveMessage["receiveMessage"]
+    receiveSpecificMessage["receiveSpecificMessage"]
+    remove_ephemera_from_polygon["remove_ephemera_from_polygon"]
+    remove_image_WadImageDescriptor___int__int_["remove_image(WadImageDescriptor&, int, int)"]
+    remove_projectile["remove_projectile"]
+    removePrototypeForType["removePrototypeForType"]
+    render_tree__["render_tree()"]
+    RenderModel["RenderModel"]
+    RenderModelSetup["RenderModelSetup"]
+    RenderPlaceObjsClass__add_object_to_sorted_nodes["RenderPlaceObjsClass::add_object_to_sorted_nodes"]
+    RenderPlaceObjsClass__build_aggregate_render_object_clipping_window["RenderPlaceObjsClass::build_aggregate_render_object_clipping_window"]
+    RenderPlaceObjsClass__build_base_node_list["RenderPlaceObjsClass::build_base_node_list"]
+    RenderPlaceObjsClass__build_render_object["RenderPlaceObjsClass::build_render_object"]
+    RenderPlaceObjsClass__build_render_object_list["RenderPlaceObjsClass::build_render_object_list"]
+    RenderSortPolyClass__build_clipping_windows__["RenderSortPolyClass::build_clipping_windows()"]
+    RenderSortPolyClass__sort_render_tree__["RenderSortPolyClass::sort_render_tree()"]
+    rephase_light["rephase_light"]
+    Reset["Reset"]
+    reset_unsigned_int_inSize_["reset(unsigned int inSize)"]
+    reset_mml_faders["reset_mml_faders"]
+    reset_screen["reset_screen"]
+    Resize["Resize"]
+    resize_image_SDL_Surface__int__int_["resize_image(SDL_Surface, int, int)"]
+    restore["restore"]
+    retrieve_image_WadImageDescriptor___int__int_["retrieve_image(WadImageDescriptor&, int, int)"]
+    RetrieveSource__["RetrieveSource()"]
+    revive_player["revive_player"]
+    RunLuaHUDScript["RunLuaHUDScript"]
+    RunScriptChunks["RunScriptChunks"]
+    save["save"]
+    save_cache__["save_cache()"]
+    ScenarioChooser__handle_event["ScenarioChooser::handle_event"]
+    ScenarioChooser__move_selection["ScenarioChooser::move_selection"]
+    ScenarioChooser__optimize_image["ScenarioChooser::optimize_image"]
+    ScenarioChooser__redraw["ScenarioChooser::redraw"]
+    ScenarioChooser__run["ScenarioChooser::run"]
+    ScenarioChooserScenario__load["ScenarioChooserScenario::load"]
+    Screen__change_screen_mode["Screen::change_screen_mode"]
+    Screen__Initialize["Screen::Initialize"]
+    SDL_Draw["SDL_Draw"]
+    send_packet["send_packet"]
+    send_packets["send_packets"]
+    send_some["send_some"]
+    sendMessage["sendMessage"]
+    set_adjacent_platform_states["set_adjacent_platform_states"]
+    set_ephemera_shape["set_ephemera_shape"]
+    set_map_file["set_map_file"]
+    set_platform_state["set_platform_state"]
+    set_player_shapes["set_player_shapes"]
+    SetClipPlane["SetClipPlane"]
+    setFlushLoggingOutput["setFlushLoggingOutput"]
+    SetupGathererGame["SetupGathererGame"]
+    Shader__loadAll["Shader::loadAll"]
+    Shader__unloadAll["Shader::unloadAll"]
+    ShellOptions__parse["ShellOptions::parse"]
+    show_movie["show_movie"]
+    Slot__Fade["Slot::Fade"]
+    Slot__Open["Slot::Open"]
+    SmallMessageHelper__deflate["SmallMessageHelper::deflate"]
+    SmallMessageHelper__inflateFrom["SmallMessageHelper::inflateFrom"]
+    SoundHeader__Load__BIStreamBE_variant_["SoundHeader::Load (BIStreamBE variant)"]
+    SoundHeader__LoadData__multiple_overloads_["SoundHeader::LoadData (multiple overloads)"]
+    SoundHeader__LoadData__overloaded_for_BIStreamBE_["SoundHeader::LoadData (overloaded for BIStreamBE)"]
+    SoundsPatches__get_sound_data["SoundsPatches::get_sound_data"]
+    spoke_cleanup["spoke_cleanup"]
+    spoke_get_unconfirmed_flags_queue["spoke_get_unconfirmed_flags_queue"]
+    spoke_initialize["spoke_initialize"]
+    spoke_received_network_packet["spoke_received_network_packet"]
+    SSLP_Allow_Service_Discovery["SSLP_Allow_Service_Discovery"]
+    SSLP_Locate_Service_Instances["SSLP_Locate_Service_Instances"]
+    SSLPint_Enter___SSLPint_Exit["SSLPint_Enter / SSLPint_Exit"]
+    StarGameProtocol__CheckWorldUpdate["StarGameProtocol::CheckWorldUpdate"]
+    StarGameProtocol__GetNetTime["StarGameProtocol::GetNetTime"]
+    StarGameProtocol__GetUnconfirmedActionFlagsCount["StarGameProtocol::GetUnconfirmedActionFlagsCount"]
+    StarGameProtocol__PacketHandler["StarGameProtocol::PacketHandler"]
+    StarGameProtocol__ParsePreferencesTree["StarGameProtocol::ParsePreferencesTree"]
+    StarGameProtocol__PeekUnconfirmedActionFlag["StarGameProtocol::PeekUnconfirmedActionFlag"]
+    StarGameProtocol__Sync["StarGameProtocol::Sync"]
+    StarGameProtocol__UnSync["StarGameProtocol::UnSync"]
+    StarGameProtocol__UpdateUnconfirmedActionFlags["StarGameProtocol::UpdateUnconfirmedActionFlags"]
+    Start__["Start()"]
+    start_fade["start_fade"]
+    start_teleporting_effect___start_extravision_effect["start_teleporting_effect / start_extravision_effect"]
+    StartUpdateCheck__["StartUpdateCheck()"]
+    static_Shader_get_ShaderType_type_["static Shader get(ShaderType type)"]
+    StatsManager__Process__["StatsManager::Process()"]
+    StatsManager__Run_void__pv___static_["StatsManager::Run(void \pv) (static)"]
+    STEAMSHIM_deinit["STEAMSHIM_deinit"]
+    StreamPlayer__constructor_["StreamPlayer (constructor)"]
+    StreamToBytes["StreamToBytes"]
+    StreamToList["StreamToList"]
+    StreamToValue["StreamToValue"]
+    SurfaceCoords__FindComplements["SurfaceCoords::FindComplements"]
+    SW_Texture_Extras__instance["SW_Texture_Extras::instance"]
+    SwitchSegment["SwitchSegment"]
+    texture_horizontal_polygon["texture_horizontal_polygon"]
+    texture_vertical_polygon["texture_vertical_polygon"]
+    TextureManager__RenderNormal___RenderGlowing___RenderBump["TextureManager::RenderNormal / RenderGlowing / RenderBump"]
+    TextureManager__Setup["TextureManager::Setup"]
+    TextureState__FrameTick["TextureState::FrameTick"]
+    thread_loop__["thread_loop()"]
+    TopLevelLogger__flush["TopLevelLogger::flush"]
+    translate_projectile["translate_projectile"]
+    try_and_change_tagged_platform_states["try_and_change_tagged_platform_states"]
+    TypedMessageHandlerFunction__handle["TypedMessageHandlerFunction::handle"]
+    unpack_platform_data___pack_platform_data["unpack_platform_data / pack_platform_data"]
+    unpack_player_data___pack_player_data["unpack_player_data / pack_player_data"]
+    update_ephemera["update_ephemera"]
+    update_everything["update_everything"]
+    update_fades["update_fades"]
+    update_frame__unnamed_main_loop_function_in_file_["update_frame (unnamed main loop function in file)"]
+    update_guided_projectile["update_guided_projectile"]
+    update_motion_sensor["update_motion_sensor"]
+    update_net_game["update_net_game"]
+    update_platforms["update_platforms"]
+    update_players["update_players"]
+    update_screen["update_screen"]
+    update_thread____static_["update_thread() (static)"]
+    update_world_elements_one_tick["update_world_elements_one_tick"]
+    utf8_to_wide___wide_to_utf8__Windows_only_["utf8_to_wide / wide_to_utf8 (Windows only)"]
+    ValueToStream["ValueToStream"]
+    VNI["VNI"]
+    w_crosshair_display__draw["w_crosshair_display::draw"]
+    w_env_select__select_item["w_env_select::select_item"]
+    w_env_select__set_path["w_env_select::set_path"]
+    w_found_players__found_player["w_found_players::found_player"]
+    w_open_preferences_file["w_open_preferences_file"]
+    w_players_in_game2__update_display["w_players_in_game2::update_display"]
+    w_plugins__draw_item["w_plugins::draw_item"]
+    w_plugins__draw_items["w_plugins::draw_items"]
+    WaitForGatherer["WaitForGatherer"]
+    world_point_to_polygon_index["world_point_to_polygon_index"]
+  end
+
+  subgraph Steam
+    Workshop_helpers["Workshop helpers"]
+  end
+
+  subgraph tests
+  end
+
+  subgraph tools
+  end
+
+  _alephone_assert --> assert_text
+  _alephone_warn --> assert_text
+  _get_local_data_path__Windows_ --> SHGetFolderPathW
+  _get_local_data_path__Windows_ --> wide_to_utf8
+  _get_default_data_path__Windows_ --> GetModuleFileNameW
+  _get_default_data_path__Windows_ --> wide_to_utf8
+  _get_prefs_path__Windows_ --> SHGetFolderPathW
+  _get_prefs_path__Windows_ --> wide_to_utf8
+  _get_legacy_login_name__Windows_ --> GetUserNameA
+  get_data_path__Windows_ --> _get_local_data_path
+  get_data_path__Linux_ --> _get_local_data_path
+  myXTMSetup__ --> new
+  myTMCleanup__ --> delete
+  AIStream__read_char_ptr__uint32_count_ --> memcpy
+  AStream__failure__failure_const_std__string__str_ --> _M_name
+  AStream__failure___failure__ --> _M_name
+  import_m1_physics_data__static_ --> AIStreamBE
+  import_m1_physics_data_from_network__static_ --> AIStreamBE
+  StreamToList --> StreamToValue
+  ListToStream --> ValueToStream
+  StreamToBytes --> memcpy
+  BytesToStream --> memcpy
+  get_default_spec__string_overload_ --> FileSpecifier
+  image_from_desc_WadImageDescriptor__ --> IMG_Load_RW
+  image_from_desc_WadImageDescriptor__ --> SDL_LoadBMP_RW
+  image_from_name_const_std__string__ --> IMG_Load_RW
+  image_from_name_const_std__string__ --> SDL_LoadBMP_RW
+  add_to_cache_cache_key_t__SDL_Surface_ --> image_to_new_name
+  add_to_cache_cache_key_t__SDL_Surface_ --> m_used
+  add_to_cache_cache_key_t__SDL_Surface_ --> m_cacheinfo
+  add_to_cache_cache_key_t__SDL_Surface_ --> m_cachesize
+  add_to_cache_cache_key_t__SDL_Surface_ --> apply_cache_limit
+  add_to_cache_cache_key_t__SDL_Surface_ --> m_cache_dirty
+  add_to_cache_cache_key_t__SDL_Surface_ --> autosave_cache
+  apply_cache_limit__ --> delete_storage_for_name
+  cache_image_WadImageDescriptor___int__int__SDL_Surface_ --> add_to_cache
+  cache_image_WadImageDescriptor___int__int__SDL_Surface_ --> autosave_cache
+  cache_image_WadImageDescriptor___int__int__SDL_Surface_ --> retrieve_name
+  cache_image_WadImageDescriptor___int__int__SDL_Surface_ --> resize_image
+  cache_image_WadImageDescriptor___int__int__SDL_Surface_ --> image_from_desc
+  cache_image_WadImageDescriptor___int__int__SDL_Surface_ --> SDL_FreeSurface
+  remove_image_WadImageDescriptor___int__int_ --> m_cacheinfo
+  remove_image_WadImageDescriptor___int__int_ --> m_used
+  remove_image_WadImageDescriptor___int__int_ --> m_cachesize
+  remove_image_WadImageDescriptor___int__int_ --> m_cache_dirty
+  remove_image_WadImageDescriptor___int__int_ --> autosave_cache
+  remove_image_WadImageDescriptor___int__int_ --> delete_storage_for_name
+  retrieve_image_WadImageDescriptor___int__int_ --> retrieve_name
+  get_image_WadImageDescriptor___int__int__SDL_Surface_ --> resize_image
+  get_image_WadImageDescriptor___int__int__SDL_Surface_ --> image_from_desc
+  get_image_WadImageDescriptor___int__int__SDL_Surface_ --> SDL_FreeSurface
+  get_image_WadImageDescriptor___int__int__SDL_Surface_ --> add_to_cache
+  initialize_cache__ --> logError
+  initialize_cache__ --> FileSpecifier
+  save_cache__ --> logError
+  is_cached --> m_cacheinfo
+  new_ephemera --> MARK_SLOT_AS_USED
+  ObjectDataPool__get_unused --> MARK_SLOT_AS_USED
+  allocate_flood_map_memory --> new
+  allocate_flood_map_memory --> delete
+  initialize_map_for_new_level --> dynamic_world
+  world_point_to_polygon_index --> MapIndexList
+  precalculate_map_indexes --> MapIndexList
+  allocate_pathfinding_memory --> new
+  allocate_pathfinding_memory --> delete
+  new_platform --> adjust_platform_endpoint_and_line_heights
+  new_platform --> adjust_platform_for_media
+  update_platforms --> adjust_platform_endpoint_and_line_heights
+  update_platforms --> adjust_platform_for_media
+  update_platforms --> set_adjacent_platform_states
+  update_platforms --> set_platform_state
+  update_platforms --> play_platform_sound
+  set_platform_state --> set_adjacent_platform_states
+  set_platform_state --> L_Call_Platform_Activated
+  set_platform_state --> play_platform_sound
+  set_adjacent_platform_states --> set_platform_state
+  player_touch_platform_state --> set_platform_state
+  player_touch_platform_state --> play_platform_sound
+  play_platform_sound --> play_polygon_sound
+  adjust_platform_for_media --> play_polygon_sound
+  unpack_platform_data___pack_platform_data --> StreamToValue
+  unpack_platform_data___pack_platform_data --> ValueToStream
+  allocate_player_memory --> new
+  new_player --> get_player_data
+  new_player --> give_player_initial_items
+  new_player --> try_and_strip_player_items
+  new_player --> initialize_player_weapons
+  update_players --> PLAYER_IS_TELEPORTING
+  update_players --> revive_player
+  update_players --> set_player_shapes
+  damage_player --> get_player_data
+  damage_player --> get_monster_data
+  damage_player --> play_object_sound
+  damage_player --> kill_player
+  damage_player --> L_Call_Player_Killed
+  damage_player --> start_fade
+  revive_player --> get_player_data
+  revive_player --> get_monster_data
+  revive_player --> give_player_initial_items
+  revive_player --> set_player_shapes
+  revive_player --> try_and_strip_player_items
+  revive_player --> L_Call_Player_Revived
+  kill_player --> get_player_data
+  kill_player --> get_monster_data
+  kill_player --> initialize_player_weapons
+  set_player_shapes --> get_player_data
+  set_player_shapes --> get_monster_data
+  set_player_shapes --> get_player_transfer_mode
+  set_player_shapes --> animate_object
+  get_player_transfer_mode --> get_player_data
+  get_player_transfer_mode --> PLAYER_IS_TELEPORTING
+  decode_hotkeys --> get_player_data
+  unpack_player_data___pack_player_data --> StreamToValue
+  unpack_player_data___pack_player_data --> StreamToBytes
+  unpack_player_data___pack_player_data --> StreamToList
+  unpack_player_data___pack_player_data --> ValueToStream
+  unpack_player_data___pack_player_data --> BytesToStream
+  unpack_player_data___pack_player_data --> ListToStream
+  new_projectile --> get_projectile_definition
+  new_projectile --> normalize_angle
+  new_projectile --> L_Call_Projectile_Created
+  move_projectiles --> animate_object
+  move_projectiles --> update_guided_projectile
+  move_projectiles --> translate_projectile
+  move_projectiles --> damage_monsters_in_radius
+  move_projectiles --> new_effect
+  move_projectiles --> play_object_sound
+  move_projectiles --> remove_projectile
+  move_projectiles --> L_Call_Projectile_Detonated
+  translate_projectile --> get_projectile_definition
+  translate_projectile --> get_polygon_data
+  translate_projectile --> get_media_data
+  translate_projectile --> get_object_data
+  translate_projectile --> get_monster_dimensions
+  remove_projectile --> get_projectile_data
+  update_guided_projectile --> get_projectile_data
+  update_guided_projectile --> get_monster_data
+  update_guided_projectile --> get_object_data
+  update_guided_projectile --> get_monster_dimensions
+  detonate_projectile --> get_projectile_definition
+  detonate_projectile --> damage_monsters_in_radius
+  detonate_projectile --> new_effect
+  detonate_projectile --> L_Call_Projectile_Detonated
+  preflight_projectile --> get_projectile_definition
+  preflight_projectile --> get_polygon_data
+  preflight_projectile --> get_media_data
+  preflight_projectile --> translate_projectile
+  api_incr_top --> api_check
+  api_checknelems --> api_check
+  api_checknelems --> n
+
